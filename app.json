@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "VKU StudyRoom",
+    "slug": "vku-study-room-booking",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "vkustudyroom",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "vn.udn.vku.studyroom"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0F294A",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "vn.udn.vku.studyroom",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#1A56DB"
+        }
+      ]
+    ]
+  }
+}
